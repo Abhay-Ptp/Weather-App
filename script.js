@@ -15,10 +15,15 @@ const icon=document.getElementById('text-icon');
 
 async function findWeather(city)
 {
+        try{
             const response=await fetch(`http://api.weatherapi.com/v1/current.json?key=ce7051ff107c4605a7371506240404&q=${city}&aqi=yes`)
 
             const data= await response.json()
             return data
+        }
+        catch(err){
+                console.log(alert("You are not connected to internet"))
+         }
 }
 
 button.addEventListener('click',async (e)=>{
