@@ -1,5 +1,5 @@
 # Weather-Web-App
-Welcome to the repository for our weather web app project! This application provides users with real-time weather information based on their location.
+Welcome to the repository for my weather web app project! This application provides users with real-time weather information based on their location.
 
 Features:
 Location-based Weather: Utilizes geolocation to fetch weather data specific to the user's location.
@@ -14,4 +14,4 @@ APIs: Integrates with weather APIs such as OpenWeatherMap, Weatherstack, or Dark
 Geolocation: Utilizes geolocation services to determine the user's location.
 
 Contributing:
-We welcome contributions from the community to enhance the functionality and user experience of our weather web app. If you'd like to contribute, please fork the repository and submit a pull request with your changes.
+Contributions are welcomed from the community to enhance the functionality and user experience of the weather web app. If you'd like to contribute, please fork the repository and submit a pull request with your changes.
